@@ -1,30 +1,28 @@
 <!-- 
-   
-    Atributos HTML
 
-    - Informações extras
-    - Configurações
+    Atributos globais mais utilizados
 
--->
-<img src="imagem.png" alt="alternativo">
-
-
-<!-- 
-
-    Atributos booleanos
-
-    - Não precisam de conteúdo
+    - class
+    - contenteditable
+    - data-*
+    - hidden
+    - id
+    - style
+    - tabindex
+    - title
 
  -->
-<input type="text" disabled>
+<div class="carrinho" contenteditable="true" id="cart1" tabindex="3">
+    conteudo
+    <!-- elementos aqui dentro -->
+</div>
 
+<div data-qualquer-nome-aqui="" id="cart2" style="color: red;" tabindex="1">
+    conteudo
+    <!-- elementos aqui dentro -->
+</div>
 
-<!-- 
-
-    Aspas
-    - Omissão
-    - Simples
-    - Duplas -> sempre de preferência
-
- -->
-<a href="https://google.com" title="Isn't">link</a>
+<div class="carrinho" tabindex="2" title="definir um titulo">
+    conteudo
+    <!-- elementos aqui dentro -->
+</div>
