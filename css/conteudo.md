@@ -1,6 +1,17 @@
-# Caixas
+# Adicionando CSS
 
-* Você irá perceber que (quase) tudo são caixas do CSS
-* Posicionamentos, tamanhos, espaçamentos, bordas, cores
-* Caixas podem ficar ao lado uma das outras, ou acima
-* Elementos HTML são caixas
+## inline
+
+* atributo `style`
+
+## <style>
+
+* tag html que irá conter o css
+
+## <link>
+
+* arquivo css externo
+
+## @import
+
+* arquivo css externo
