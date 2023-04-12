@@ -1,15 +1,19 @@
-# Funções
+#  Vendor prefixes
 
-* nome seguido de abre e fecha parentesis
-* recebe argumentos
+Permite que browsers adicione `features`
+a fim de colocar em uso alguma novidade que vemos n CSS
 
-## Exemplos
-
+# Exemplo
 ```css
-@import url("http://urlaqui.com/style.css");
-
-{
-    color: rgb(255, 0, 100);
-    width: calc(100% - 10px)
+p {
+    -webkit-background-clip: text;  /* Chrome, Safari, iOS e Android */
+    -moz-background-clip: text;  /* Mozilla (Firefox) */
+    -ms-background-clip: text;  /* Internet Explorer */
+    -o-background-clip: text;  /* Opera */
 }
 ```
+
+# Consultas
+
+[http://ireade.github.io/which-vendor-prefix/]
+[http://caniuse.com]
