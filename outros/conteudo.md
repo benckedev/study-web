@@ -1,8 +1,4 @@
-# Funções
+# Strings e identificadores
 
-Em programação, funções são reconhecidas por causar um reaproveitamento de código.
-
-* rgb()
-* hsl()
-* url()
-* calc()
+* Strings: texto envolto em aspas
+* Identificadores: red, black, gold
