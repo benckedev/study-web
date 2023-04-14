@@ -1,23 +1,4 @@
-# Distância absolutas <length>
+# Procentagens %
 
-São fixas e não alteram seu valor.
-
-Unidade     Nome                Equivalência
-cm          Centímetros         1cm = 96px/2.54
-in          Inches (polegadas)  1n = 2.54cm = 96px
-px          Pixels              1px = 1/96th of 1in
-
-* o mais comum e mais utilizado é o **px**
-* não recomendado usar cm
-
-# Distâncias relativas
-
-São relativas a algum outro valor, pode ser o elemento pai, ou root, ou da tela
-
-* Benefício: maior adaptação aos diferentes tipos de tela
-
-Unidade     Relativo a
-em          Tamanho da fonte do pai
-rem         Tamanho da fonte do elemento raiz (root/html)
-vw          1% da viewport width
-vh          1% da viewport height
+* Em muitos casos é tratado da mesma maneira que as distâncias <length>
+* Será sempre relativo a um valor
