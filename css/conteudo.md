@@ -1,19 +1,17 @@
-#  Vendor prefixes
+# Box Model
 
-Permite que browsers adicione `features`
-a fim de colocar em uso alguma novidade que vemos n CSS
+- Fundamental para fazer layouts para a web
+- Maior facilidade para aplicar o CSS
 
-# Exemplo
-```css
-p {
-    -webkit-background-clip: text;  /* Chrome, Safari, iOS e Android */
-    -moz-background-clip: text;  /* Mozilla (Firefox) */
-    -ms-background-clip: text;  /* Internet Explorer */
-    -o-background-clip: text;  /* Opera */
-}
-```
+## O que é?
 
-# Consultas
+Uma caixa retangular.
+Essa caixa possui propriedades de uma caixa (2D)
 
-[http://ireade.github.io/which-vendor-prefix/]
-[http://caniuse.com]
+- Tamanho (largura x altura)        width | height
+- Conteúdo      content
+- Bordas        border
+- Preenchimento interno     padding
+- Espaços fora da caixa     margin
+
+* Cada elementos na sua página, será considerado uma caixa*
