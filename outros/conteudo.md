@@ -1,14 +1,23 @@
-# Tipos numéricos
+# Distância absolutas <length>
 
-* <integer> Número inteiro
-* <number>  Número decimal
-* <dimension>   É um <number> com uma unidade junto: 90deg, 2s, 8px
-* <percentagem> Representa a fração de outro númeroÇ: 50%
+São fixas e não alteram seu valor.
 
+Unidade     Nome                Equivalência
+cm          Centímetros         1cm = 96px/2.54
+in          Inches (polegadas)  1n = 2.54cm = 96px
+px          Pixels              1px = 1/96th of 1in
 
-## Unidades comuns
+* o mais comum e mais utilizado é o **px**
+* não recomendado usar cm
 
-* <length>  Representa um valor de distância: px, em, vw
-* <angle>   Representa um valor de ângulo: deg, rad, turn
-* <time>    Representa um tempo: s, ms
-* <resolution>  Representa resolução para dispositivos: dpi
+# Distâncias relativas
+
+São relativas a algum outro valor, pode ser o elemento pai, ou root, ou da tela
+
+* Benefício: maior adaptação aos diferentes tipos de tela
+
+Unidade     Relativo a
+em          Tamanho da fonte do pai
+rem         Tamanho da fonte do elemento raiz (root/html)
+vw          1% da viewport width
+vh          1% da viewport height
