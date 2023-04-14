@@ -1,17 +1,11 @@
-# Box Model
+# Box sizing
 
-- Fundamental para fazer layouts para a web
-- Maior facilidade para aplicar o CSS
+Como será calculado o tamanho total da caixa?
 
-## O que é?
+- content-box|border-box
 
-Uma caixa retangular.
-Essa caixa possui propriedades de uma caixa (2D)
-
-- Tamanho (largura x altura)        width | height
-- Conteúdo      content
-- Bordas        border
-- Preenchimento interno     padding
-- Espaços fora da caixa     margin
-
-* Cada elementos na sua página, será considerado uma caixa*
+```css
+div {
+    box-sizing: border-box
+}
+```
