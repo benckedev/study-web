@@ -1,16 +1,16 @@
-# Display
+## margin
 
-## block vs inline
+Espaços entre os elementos
 
-- Como as caixas se comportam em relação às outras caixas
-- Comportamento externo das caixas
+- margin-top | margin-right | margin-bottom | margin-left
+- values: `<length>` | `<percentage>` | auto
 
-**block**
-- Ocupa toda a linha, colocando o próximo elemento abaixo desse
-- width e height são respeitados
-- padding, margin, border irão funcionar normalmente
+```css
+    /* shorhand */
+    margin: 12px 16px 10px 4px;
+    margin: 12px 16px 0;
+    margin: 8px 16px;
+    margin: 8px;
+```
 
-**inline**
-- Elemento ao lado do outro
-- width e height não funcionam
-- Somente valores horizontais de margin, padding e border
+* Cuidado com margin collapsing (top se ajunta ao bottom)
