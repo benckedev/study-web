@@ -1,16 +1,15 @@
-### cores
+### background
 
-Usamos CSS para alterar cores do nosso documento.
+- Define um fundo para o nosso elemento
+- Sua área de atuação é a caixa toda
+- por padrão, é transparente
 
-## Tipos
-* background-color (para caixas)
-* color (para textos)
-* border-color (para caixas)
-* outros
-
-## Valores
-Podemos definir valores por:
-
-* palavra-chave (blue, transparent)
-* hexadecimal (#990011)
-* funções: rgb, rgba, hsl, hsla
+### Exemplos
+- Usar cores sólidas
+- Usar imagens
+- Controlar
+	- a posição de imagens, 
+	- se elas se repetem ou não,
+	- o tamanho delas na caixa
+- Usar cor e imagem juntas
+- Usar cores gradiente
