@@ -1,35 +1,16 @@
-## border (e outline)
+### cores
 
-As bordas da caixa
+Usamos CSS para alterar cores do nosso documento.
 
-- style: solid | dotted | dashed | double | groove | ridge | inset | outset
-    - value: <border-style> | <border-width> | <border-color>
-    - width: <length>
-    - color: <color>
+## Tipos
+* background-color (para caixas)
+* color (para textos)
+* border-color (para caixas)
+* outros
 
-```css
-div {
-	/* shorthand */
-	border-top: solid 2px; /* top | right | bottom | left */
+## Valores
+Podemos definir valores por:
 
-	/* style */
-	border: solid;
-
-	/* width <length> | style */
-	border: 2px dotted;
-
-	/* style | color */
-	border: outset #f33;
-
-	/* width | style | color */
-	border: medium dashed green;
-
-}
-```
-
-### E o outline?
-    O outline é muito semelhante ao border, mas difere em 4 sentidos:
-    Não modifica o tamanho da caixa, pois não é parte do Box Model
-    Poderá ser diferente de retangular
-    Não permite ajuste individuais
-    Mais usado pelo user agent para acessibilidade
+* palavra-chave (blue, transparent)
+* hexadecimal (#990011)
+* funções: rgb, rgba, hsl, hsla
