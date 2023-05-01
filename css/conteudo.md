@@ -1,15 +1,27 @@
-### background
+<!-- 
+	<video>
 
-- Define um fundo para o nosso elemento
-- Sua área de atuação é a caixa toda
-- por padrão, é transparente
+	- src
+	- controls
+	- se não funcionar?
+		- fallback content
+	- source
+		- src
+		type
 
-### Exemplos
-- Usar cores sólidas
-- Usar imagens
-- Controlar
-	- a posição de imagens, 
-	- se elas se repetem ou não,
-	- o tamanho delas na caixa
-- Usar cor e imagem juntas
-- Usar cores gradiente
+	- sobre serviços de terceiros
+ -->
+
+ ```html
+<video controls
+	width="200px"
+	height="200px"
+	autoplay
+	preload="metadata"
+	loop
+	muted
+	poster="./icon.png">
+	<source src="" type="video/mp4">
+	<p>Esse browser não suporta o vídeo, baixe-o aqui.</p>
+</video>
+ ```
