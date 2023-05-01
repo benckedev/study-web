@@ -1,5 +1,5 @@
 <!-- 
-	<video>
+	<audio>
 
 	- src
 	- controls
@@ -7,21 +7,16 @@
 		- fallback content
 	- source
 		- src
-		type
-
-	- sobre serviços de terceiros
+		- type
  -->
 
  ```html
-<video controls
-	width="200px"
-	height="200px"
+<audio controls
 	autoplay
-	preload="metadata"
-	loop
 	muted
-	poster="./icon.png">
-	<source src="" type="video/mp4">
-	<p>Esse browser não suporta o vídeo, baixe-o aqui.</p>
-</video>
+	loop>
+	<source src="" type="audio/mp3">
+	<source src="" type="audio/ogg">
+	<p>Seu navegador não suporta audio.</p>
+</adio>
  ```
