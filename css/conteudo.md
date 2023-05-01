@@ -1,22 +1,21 @@
 <!-- 
-	<iframe>
+	<img>
 
-	- atributos
-		- src
-		- height
-		- width
-		- title (acessibilidade)
-		- allowfullscreen
-		- frameborder
+	- src
+	- alt
+	- title
+	- width
+	- height
+	- adicionando link
  -->
 
- ```html
-<iframe 
-	width="" 
-	height=""
-	src=""
-	frameborder="0"
-	allow="accelorometer; autoplay; enctrypted-media; gyroscope; picture-in-picture"
-	allowfullscreen
-	title="Vídeo da Rocketseat"></iframe>
- ```
+```html
+<a href="https://google.com">
+<img 
+	src="" 
+	alt="Alguma imagem"
+	title="Titulo da imagem"
+	width=""
+	height="">
+</a>
+```
