@@ -1,22 +1,22 @@
 <!-- 
-	<audio>
+	<iframe>
 
-	- src
-	- controls
-	- se não funcionar?
-		- fallback content
-	- source
+	- atributos
 		- src
-		- type
+		- height
+		- width
+		- title (acessibilidade)
+		- allowfullscreen
+		- frameborder
  -->
 
  ```html
-<audio controls
-	autoplay
-	muted
-	loop>
-	<source src="" type="audio/mp3">
-	<source src="" type="audio/ogg">
-	<p>Seu navegador não suporta audio.</p>
-</adio>
+<iframe 
+	width="" 
+	height=""
+	src=""
+	frameborder="0"
+	allow="accelorometer; autoplay; enctrypted-media; gyroscope; picture-in-picture"
+	allowfullscreen
+	title="Vídeo da Rocketseat"></iframe>
  ```
