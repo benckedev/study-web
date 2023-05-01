@@ -1,21 +1,9 @@
 <!-- 
-	<img>
+	background-image 
+	
+	- com a tag style
+	- somente para estilo
+	- não é semântico e falta significado
+	-->
 
-	- src
-	- alt
-	- title
-	- width
-	- height
-	- adicionando link
- -->
-
-```html
-<a href="https://google.com">
-<img 
-	src="" 
-	alt="Alguma imagem"
-	title="Titulo da imagem"
-	width=""
-	height="">
-</a>
-```
+	
